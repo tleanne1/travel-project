@@ -30,6 +30,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.section-grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
@@ -83,6 +88,11 @@ section {
 
 section.secondary {
   background-color: #f8f8f8;
+}
+
+.section-img {
+  width: 350px;
+  height: 300px;
 }
 
 header {
@@ -250,5 +260,9 @@ footer a {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .section-img {
+    margin: 0 auto;
   }
 }
